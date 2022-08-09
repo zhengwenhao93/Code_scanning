@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/shop/shop",
+        "pages/every/every",
+        "pages/cart/cart",
+        "pages/my/my"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#eee",
+        "navigationBarTitleText": "扫码购物车",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/shop/shop",
+                "text": "扫码购物",
+                "iconPath": "iconPath",
+                "selectedIconPath": "selectedIconPath"
+            },
+            {
+              "pagePath": "pages/every/every",
+              "text": "每日优选",
+              "iconPath": "iconPath",
+              "selectedIconPath": "selectedIconPath"
+          },            
+          {
+            "pagePath": "pages/my/my",
+            "text": "个人中心",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
